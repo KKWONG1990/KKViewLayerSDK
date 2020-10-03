@@ -1,0 +1,6 @@
+framework module KKViewLayerSdk {
+  umbrella header "KKViewLayerSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

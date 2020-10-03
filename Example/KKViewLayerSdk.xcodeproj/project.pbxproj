@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0657F850449911C590A1BF44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0657F850449911C590A1BF44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2826402C29230E4F0EC6024A /* Pods_KKViewLayerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKViewLayerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3321EB144DF8A0D61488ECBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3321EB144DF8A0D61488ECBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		541BA8DE68CAA3F55AA55ED3 /* Pods-KKViewLayerSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKViewLayerSdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKViewLayerSdk_Example/Pods-KKViewLayerSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KKViewLayerSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKViewLayerSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C28D357DBBBFC74D9A60E260 /* Pods_KKViewLayerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKViewLayerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB332BF00109B977C3780F4 /* Pods-KKViewLayerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKViewLayerSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKViewLayerSdk_Tests/Pods-KKViewLayerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDFFAA4EF2232A0F30FB6259 /* KKViewLayerSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKViewLayerSdk.podspec; path = ../KKViewLayerSdk.podspec; sourceTree = "<group>"; };
+		DDFFAA4EF2232A0F30FB6259 /* KKViewLayerSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKViewLayerSdk.podspec; path = ../KKViewLayerSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6E34D5F458CCDFC6A340530 /* Pods-KKViewLayerSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKViewLayerSdk_Example.release.xcconfig"; path = "Target Support Files/Pods-KKViewLayerSdk_Example/Pods-KKViewLayerSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				7D0A546D26A531371BAA25CC /* Pods-KKViewLayerSdk_Tests.debug.xcconfig */,
 				CFB332BF00109B977C3780F4 /* Pods-KKViewLayerSdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +324,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KKViewLayerSdk_Example/Pods-KKViewLayerSdk_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KKViewLayerSdk/KKViewLayerSdk.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKViewLayerSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,23 @@
+PODS:
+  - KKViewLayerSdk (0.1.0):
+    - MBProgressHUD
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - KKViewLayerSdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  KKViewLayerSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKViewLayerSdk: 732d0440d5c023aa2bf2a224bd35696fae9965bb
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: ecb269d2c16c6c4e2f56fb40d539a0bf38fe2959
+
+COCOAPODS: 1.10.0.rc.1
