@@ -1,6 +1,6 @@
 {
   "name": "KKViewLayerSdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "iOS视图开发工具",
   "description": "iOS objc视图开发工具集合",
   "homepage": "https://github.com/KKWONG1990/KKViewLayerSdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/KKWONG1990/KKViewLayerSdk.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

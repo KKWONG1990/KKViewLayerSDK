@@ -24,7 +24,7 @@
     .addAction(@"显示加载", UIAlertActionStyleDefault, nil, ^(UIAlertAction * action) {
         NSLog(@"显示加载");
         KKHud.share.addHudIn(self.view).mode(MBProgressHUDModeIndeterminate).animated(YES).show();
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             KKHud.share.addHudIn(self.view).title(@"show title").mode(MBProgressHUDModeText).animated(YES).show().hideWithDelay(2.0);
         });
     });

@@ -1,5 +1,5 @@
 PODS:
-  - KKViewLayerSdk (0.1.0):
+  - KKViewLayerSdk (0.1.1):
     - MBProgressHUD
   - MBProgressHUD (1.2.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKViewLayerSdk: 13961b354e805a284294297abd33af302b358106
+  KKViewLayerSdk: 822cddad8625af3caa6f085630d3a0fea5836858
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: ecb269d2c16c6c4e2f56fb40d539a0bf38fe2959
