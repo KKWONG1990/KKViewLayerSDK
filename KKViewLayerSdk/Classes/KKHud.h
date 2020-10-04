@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 NS_ASSUME_NONNULL_BEGIN
-
 @interface KKHud : NSObject
 
 /// hud单例创建
@@ -45,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 隐藏指示器，最后调用, 返回一个MBProgressHUD的block是为了可以进行指示器隐藏的回调
 - (MBProgressHUD *(^)(void))hide;
 
-/// 延迟隐藏指示器，最后调用，也可在show之后调用，传入时间，,返回一个MBProgressHUD的block是为了可以进行指示器隐藏的回调
+/// 延迟隐藏指示器，在show之后调用，传入时间，,返回一个MBProgressHUD的block是为了可以进行指示器隐藏的回调
 - (MBProgressHUD *(^)(NSTimeInterval delay))hideWithDelay;
 @end
 

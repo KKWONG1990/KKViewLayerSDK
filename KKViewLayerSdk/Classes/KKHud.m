@@ -27,9 +27,16 @@
     return _hudShare;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _hud        = [[MBProgressHUD alloc] init];
+        _animated   = YES;
+    }
+    return self;
+}
+
 - (void)hudInit:(void (^)(MBProgressHUD * _Nonnull))init {
-    _hud        = [[MBProgressHUD alloc] init];
-    _animated   = YES;
     init(_hud);
 }
 

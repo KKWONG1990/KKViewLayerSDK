@@ -36,7 +36,7 @@ iOS objc视图开发工具集合
   #   'KKViewLayerSdk' => ['KKViewLayerSdk/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'KKViewLayerSdk/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   s.dependency 'MBProgressHUD'
 end

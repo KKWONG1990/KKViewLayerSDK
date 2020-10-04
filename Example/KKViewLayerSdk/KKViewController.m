@@ -7,7 +7,7 @@
 //
 
 #import "KKViewController.h"
-
+#import <KKViewLayerSdk.h>
 @interface KKViewController ()
 
 @end
@@ -17,13 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)showAlertVC {
+    KKAlertController * alertVC = KKAlertController.init(@"KKAlertController", @"KKAlertController是对UIAlertController的封装", UIAlertControllerStyleAlert)
+    .addAction(@"取消", UIAlertActionStyleCancel, nil, nil)
+    .addAction(@"显示加载", UIAlertActionStyleDefault, nil, ^(UIAlertAction * action) {
+        NSLog(@"显示加载");
+        KKHud.share.addHudIn(self.view).mode(MBProgressHUDModeIndeterminate).animated(YES).show();
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            KKHud.share.addHudIn(self.view).title(@"show title").mode(MBProgressHUDModeText).animated(YES).show().hideWithDelay(2.0);
+        });
+    });
+    [self presentViewController:alertVC animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

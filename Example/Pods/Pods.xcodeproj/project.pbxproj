@@ -6,111 +6,115 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		EF9E890B4770C193888A896B1CAD8066 /* KKViewLayerSdk */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D65F3B3990D4CD3CA66E37AC5E7DC0F0 /* Build configuration list for PBXAggregateTarget "KKViewLayerSdk" */;
-			buildPhases = (
-			);
-			dependencies = (
-				280065A120BD0CFD2CF00F3EE8852E5C /* PBXTargetDependency */,
-			);
-			name = KKViewLayerSdk;
-			productName = KKViewLayerSdk;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		113B3A8B23CBF0BEEAD118A2F0A6169F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
-		2B138D84BBB6EC943EFC469CACEB7CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
-		41BFDA2032475961FE4C193354F3E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
+		0AE7E87FF68F68808D8E425D9BA33585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */; };
+		0C3493B368F6BAD47BFCBAF64777C435 /* KKViewLayerSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F364C0FA1C33143B6C7FB3D87DFF1FF /* KKViewLayerSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113B3A8B23CBF0BEEAD118A2F0A6169F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		2BFBB5C3D4BE7A7CF1B311166087401C /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB12B4E94CB1E3F01FB8CFD6B85533D /* KKViewLayerSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A74D929B76A609BD19FBCED35C447F3F /* KKViewLayerSdk-dummy.m */; };
+		316C48A7BE70676B529CC375BA9D0EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		3FABC997A587941B2D8772A6D0A08D5C /* KKAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEB6787017026696769600F909C230 /* KKAlertController.m */; };
+		41BFDA2032475961FE4C193354F3E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
 		565581208FAE513AD33049297AC279EC /* Pods-KKViewLayerSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA33EDCDEDBDA817763B3040A7C6C /* Pods-KKViewLayerSdk_Tests-dummy.m */; };
-		64852E4D8C57C2F3CCB6F946E48EE731 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59574371B60D1BFCC9237BD6A9B23237 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */; };
+		5980D4418686F914E5A8631A53C476E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
 		829CC390F945DCA6624443A0B5B9AC40 /* Pods-KKViewLayerSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5840E57898AE32DC3BCA682334F98A1 /* Pods-KKViewLayerSdk_Example-dummy.m */; };
-		A7176AA68EB71749B362262FE1A7F20F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFDB4A1AC2D62D7295B8DCFCB50CEBFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */; };
+		9ADCE5581F3C47AE72448D035F5739F1 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */; };
+		A5F87E4C30DFE9EB083F028D75BC659E /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBA99E052A8AD531A913528384DB04C /* KKAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8225249D6C9FB012DFA89263A46DDB /* KKAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB9CEE018423AF4123B1E89F91B72DC1 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		C5862BA29B95DC9D676A27025B3992A9 /* KKHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C28C819BDD84E381C780ED2ED319184 /* KKHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5409C791D183CA010D5AF6BAAC49CA8 /* Pods-KKViewLayerSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB250692BF98C182D7CB7EFC2BC711B /* Pods-KKViewLayerSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D95F32050E8C84280B29D077AAA42437 /* Pods-KKViewLayerSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFBFA076CF668979C2430B71A9FEFD3 /* Pods-KKViewLayerSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB0F9881FFD74183BED3429AC11167CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */; };
-		DBBF950F1B78A0AA4EA0BCEF41F3C1CB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		E1F1403F4E25940F2E41A76437FF2B0E /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		E2DEE492986993B076476EA8F9E9FAA7 /* KKViewLayerSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 825BAAAEEAC3DE73352AB5F3AB675DAD /* KKViewLayerSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E382A13923293AEB3B294F8F6683DA80 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		E7A87A877C6157B81DA9FD73C6237CEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */; };
+		ECD9638502677B514396AD3A0B571010 /* KKHud.m in Sources */ = {isa = PBXBuildFile; fileRef = BC368289413DBA38B5D7DB6C31FBC131 /* KKHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52C8FF4422A1D2E1A8A58925F8AB6EB3 /* PBXContainerItemProxy */ = {
+		1DDCDFE1D18956A2138859F385124F68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		644D821FF3B79CB7FD60CA36D97BDD1D /* PBXContainerItemProxy */ = {
+		888200380DF001D8F3B179867566B864 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 979F2E3811F5A5B191E810D917BA1021;
-			remoteInfo = "Pods-KKViewLayerSdk_Example";
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
 		};
-		C49D9CF5FEC904C1B8C6D236375A685C /* PBXContainerItemProxy */ = {
+		AD13F8BD6C94A1D8FB1264158090F941 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EF9E890B4770C193888A896B1CAD8066;
 			remoteInfo = KKViewLayerSdk;
 		};
-		DE5454AB6399CFA255B197B67F66AB88 /* PBXContainerItemProxy */ = {
+		E64B2759F1AE2B6054C68978B152E9D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
+			remoteGlobalIDString = 979F2E3811F5A5B191E810D917BA1021;
+			remoteInfo = "Pods-KKViewLayerSdk_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F2BE914B8374B3470C4D97C213DEEE /* KKViewLayerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKViewLayerSdk.framework; path = KKViewLayerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9D5AF910474BD48A382F8B460BF3E1 /* Pods-KKViewLayerSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKViewLayerSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		1E8225249D6C9FB012DFA89263A46DDB /* KKAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKAlertController.h; path = KKViewLayerSdk/Classes/KKAlertController.h; sourceTree = "<group>"; };
+		261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		30CB86D07DDD344873BF11279F5F3E32 /* Pods-KKViewLayerSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKViewLayerSdk_Example-Info.plist"; sourceTree = "<group>"; };
 		32978842C4257FEC7BA26935E0F63712 /* Pods-KKViewLayerSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKViewLayerSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		33AA35BEEA0D7B8DC01331BE19D3D877 /* KKViewLayerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKViewLayerSdk.release.xcconfig; sourceTree = "<group>"; };
 		358D798AF2FB24AF0E7B865501C23FD2 /* Pods-KKViewLayerSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKViewLayerSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DB250692BF98C182D7CB7EFC2BC711B /* Pods-KKViewLayerSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKViewLayerSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		48F36D6D2EE70F374E791390EBEBF323 /* Pods_KKViewLayerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKViewLayerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DAB0908B2B818EA9CD45770ECDA41D1 /* KKViewLayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKViewLayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EEB23402039F406E352A8912BD02E46 /* KKViewLayerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKViewLayerSdk.modulemap; sourceTree = "<group>"; };
+		48F36D6D2EE70F374E791390EBEBF323 /* Pods_KKViewLayerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKViewLayerSdk_Tests.framework; path = "Pods-KKViewLayerSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		5082708B5F3491378C14B974C1140CA0 /* KKViewLayerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKViewLayerSdk.debug.xcconfig; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		5DEEA33EDCDEDBDA817763B3040A7C6C /* Pods-KKViewLayerSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKViewLayerSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		5DEEB6787017026696769600F909C230 /* KKAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKAlertController.m; path = KKViewLayerSdk/Classes/KKAlertController.m; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		666F0A17F86B9C86FC5D3629ADC8486E /* Pods-KKViewLayerSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKViewLayerSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A90A0C6853243F6EB171FF7D6656B37 /* Pods-KKViewLayerSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKViewLayerSdk_Tests.modulemap"; sourceTree = "<group>"; };
 		6B8E3A377F526B94781B7C907D7041B2 /* Pods-KKViewLayerSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKViewLayerSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		7310D74C864A3D9111C6A6852BC4276F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71ACC5F0CF8D2E29FD1B6A997903A27D /* KKViewLayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKViewLayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73B4203FA5D6798CF5DE0314A3357239 /* Pods-KKViewLayerSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKViewLayerSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C28C819BDD84E381C780ED2ED319184 /* KKHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKHud.h; path = KKViewLayerSdk/Classes/KKHud.h; sourceTree = "<group>"; };
+		7F364C0FA1C33143B6C7FB3D87DFF1FF /* KKViewLayerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKViewLayerSdk-umbrella.h"; sourceTree = "<group>"; };
+		8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825BAAAEEAC3DE73352AB5F3AB675DAD /* KKViewLayerSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKViewLayerSdk.h; path = KKViewLayerSdk/Classes/KKViewLayerSdk.h; sourceTree = "<group>"; };
 		8AF80341517D6315382C04490BF019D5 /* Pods-KKViewLayerSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKViewLayerSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		993DFDE2EB950C8C53D661E61BDEF1DA /* Pods-KKViewLayerSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKViewLayerSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03F2DC846F5369ECA1C1ECDA38E4B24 /* Pods-KKViewLayerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKViewLayerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A28988D28CCB0E18179F7A70EC83294B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3A242E3A833AB13FCD7A73F4B7E03D7 /* KKViewLayerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKViewLayerSdk-prefix.pch"; sourceTree = "<group>"; };
+		A74D929B76A609BD19FBCED35C447F3F /* KKViewLayerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKViewLayerSdk-dummy.m"; sourceTree = "<group>"; };
+		A7AF232CE60DA72FCB5BFCA7AB2D41C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AC02B25D1072C5732A1D615C1AD2932E /* Pods-KKViewLayerSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKViewLayerSdk_Example.modulemap"; sourceTree = "<group>"; };
-		AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		BED32830B7B462743A310AB644CAFFB5 /* Pods_KKViewLayerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKViewLayerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8B619BB25285F4000684965 /* KKAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKAlertController.h; path = KKViewLayerSdk/Classes/KKAlertController.h; sourceTree = "<group>"; };
-		C8B619BC25285F4000684965 /* KKAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKAlertController.m; path = KKViewLayerSdk/Classes/KKAlertController.m; sourceTree = "<group>"; };
-		C8B619C12528666A00684965 /* KKHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKHud.h; path = KKViewLayerSdk/Classes/KKHud.h; sourceTree = "<group>"; };
-		C8B619C22528666A00684965 /* KKHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKHud.m; path = KKViewLayerSdk/Classes/KKHud.m; sourceTree = "<group>"; };
-		C8B619C52528679400684965 /* KKViewLayerSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKViewLayerSdk.h; path = KKViewLayerSdk/Classes/KKViewLayerSdk.h; sourceTree = "<group>"; };
+		BC368289413DBA38B5D7DB6C31FBC131 /* KKHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKHud.m; path = KKViewLayerSdk/Classes/KKHud.m; sourceTree = "<group>"; };
+		BED32830B7B462743A310AB644CAFFB5 /* Pods_KKViewLayerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKViewLayerSdk_Example.framework; path = "Pods-KKViewLayerSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEF7EFAD062F513C0AA33E2A686357A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CAFBFA076CF668979C2430B71A9FEFD3 /* Pods-KKViewLayerSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKViewLayerSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		D5840E57898AE32DC3BCA682334F98A1 /* Pods-KKViewLayerSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKViewLayerSdk_Example-dummy.m"; sourceTree = "<group>"; };
-		DB7CBBE4E65D249042370333CF8A0E4E /* KKViewLayerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKViewLayerSdk.debug.xcconfig; sourceTree = "<group>"; };
+		DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DCAAEAF3FD3F3AD2ADA5EBA49E04ABDD /* KKViewLayerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKViewLayerSdk.release.xcconfig; sourceTree = "<group>"; };
+		E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		F1CE852F91A1D9AB807A5D57CBC5C4C2 /* KKViewLayerSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKViewLayerSdk-Info.plist"; sourceTree = "<group>"; };
 		F21466B827FE9E7D4E6ABD296311ECCD /* Pods-KKViewLayerSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKViewLayerSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,45 +134,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7902194D635AD13848B98BE58C9B2DE3 /* Frameworks */ = {
+		5C4C3552A22C43347AC92B1351931A1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0F9881FFD74183BED3429AC11167CD /* CoreGraphics.framework in Frameworks */,
-				2B138D84BBB6EC943EFC469CACEB7CEF /* Foundation.framework in Frameworks */,
-				AFDB4A1AC2D62D7295B8DCFCB50CEBFD /* QuartzCore.framework in Frameworks */,
+				59574371B60D1BFCC9237BD6A9B23237 /* CoreGraphics.framework in Frameworks */,
+				316C48A7BE70676B529CC375BA9D0EED /* Foundation.framework in Frameworks */,
+				E7A87A877C6157B81DA9FD73C6237CEC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8639B88CDC0B44246EDCA90AF144EEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5980D4418686F914E5A8631A53C476E8 /* Foundation.framework in Frameworks */,
+				9ADCE5581F3C47AE72448D035F5739F1 /* MBProgressHUD.framework in Frameworks */,
+				0AE7E87FF68F68808D8E425D9BA33585 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03ADB08F0D8A0293923E40CF7726F5AA /* Pod */ = {
+		245FB2B522A5C3D1BCB5EF1111F5789A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DAB0908B2B818EA9CD45770ECDA41D1 /* KKViewLayerSdk.podspec */,
-				A28988D28CCB0E18179F7A70EC83294B /* LICENSE */,
-				7310D74C864A3D9111C6A6852BC4276F /* README.md */,
+				DDC16320450CA404DC5FBCE007AB5205 /* KKViewLayerSdk */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F04009B2B08E830E0DAA2A9E1245D6B8 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1039D336A3F45E99913739BF64EC2481 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				BED32830B7B462743A310AB644CAFFB5 /* Pods_KKViewLayerSdk_Example.framework */,
-				48F36D6D2EE70F374E791390EBEBF323 /* Pods_KKViewLayerSdk_Tests.framework */,
-			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -179,29 +173,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6A0E7C0EC541F4EE9EDDC2CB5FB82B5A /* KKViewLayerSdk */ = {
+		5B5CAF5F3D32913F04D73CF754974738 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8B619C52528679400684965 /* KKViewLayerSdk.h */,
-				C8B619C12528666A00684965 /* KKHud.h */,
-				C8B619C22528666A00684965 /* KKHud.m */,
-				C8B619BB25285F4000684965 /* KKAlertController.h */,
-				C8B619BC25285F4000684965 /* KKAlertController.m */,
-				03ADB08F0D8A0293923E40CF7726F5AA /* Pod */,
-				6DE49C27C8FB8F8BB6172031DC039BF4 /* Support Files */,
-			);
-			name = KKViewLayerSdk;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6DE49C27C8FB8F8BB6172031DC039BF4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB7CBBE4E65D249042370333CF8A0E4E /* KKViewLayerSdk.debug.xcconfig */,
-				33AA35BEEA0D7B8DC01331BE19D3D877 /* KKViewLayerSdk.release.xcconfig */,
+				3EEB23402039F406E352A8912BD02E46 /* KKViewLayerSdk.modulemap */,
+				A74D929B76A609BD19FBCED35C447F3F /* KKViewLayerSdk-dummy.m */,
+				F1CE852F91A1D9AB807A5D57CBC5C4C2 /* KKViewLayerSdk-Info.plist */,
+				A3A242E3A833AB13FCD7A73F4B7E03D7 /* KKViewLayerSdk-prefix.pch */,
+				7F364C0FA1C33143B6C7FB3D87DFF1FF /* KKViewLayerSdk-umbrella.h */,
+				5082708B5F3491378C14B974C1140CA0 /* KKViewLayerSdk.debug.xcconfig */,
+				DCAAEAF3FD3F3AD2ADA5EBA49E04ABDD /* KKViewLayerSdk.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KKViewLayerSdk";
+			sourceTree = "<group>";
+		};
+		6E682DFA9239AF650B0EBF26441EA950 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */,
+				67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */,
+				DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */,
+				E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */,
+				6E682DFA9239AF650B0EBF26441EA950 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -211,15 +215,18 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		7E3CCDDF53B32DBFC15E0D2E0FA49CE7 /* Development Pods */ = {
+		8C4A423F9E18E0E180B155885E20023E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6A0E7C0EC541F4EE9EDDC2CB5FB82B5A /* KKViewLayerSdk */,
+				71ACC5F0CF8D2E29FD1B6A997903A27D /* KKViewLayerSdk.podspec */,
+				A7AF232CE60DA72FCB5BFCA7AB2D41C7 /* LICENSE */,
+				BEEF7EFAD062F513C0AA33E2A686357A /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A8176C76AA83370263C57DB4E39BA925 /* Pods-KKViewLayerSdk_Tests */ = {
@@ -266,22 +273,27 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7E3CCDDF53B32DBFC15E0D2E0FA49CE7 /* Development Pods */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				245FB2B522A5C3D1BCB5EF1111F5789A /* Development Pods */,
+				792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
-				1039D336A3F45E99913739BF64EC2481 /* Products */,
+				FEFF2FEBEC2BDDD81FF47A7977791A09 /* Products */,
 				C51CAB03BB114E86E4A23A864BC13804 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F04009B2B08E830E0DAA2A9E1245D6B8 /* iOS */ = {
+		DDC16320450CA404DC5FBCE007AB5205 /* KKViewLayerSdk */ = {
 			isa = PBXGroup;
 			children = (
-				AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */,
-				8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */,
-				FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */,
+				1E8225249D6C9FB012DFA89263A46DDB /* KKAlertController.h */,
+				5DEEB6787017026696769600F909C230 /* KKAlertController.m */,
+				7C28C819BDD84E381C780ED2ED319184 /* KKHud.h */,
+				BC368289413DBA38B5D7DB6C31FBC131 /* KKHud.m */,
+				825BAAAEEAC3DE73352AB5F3AB675DAD /* KKViewLayerSdk.h */,
+				8C4A423F9E18E0E180B155885E20023E /* Pod */,
+				5B5CAF5F3D32913F04D73CF754974738 /* Support Files */,
 			);
-			name = iOS;
+			name = KKViewLayerSdk;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F7D6B918246D25271D8CA897EA65EB09 /* Pods-KKViewLayerSdk_Example */ = {
@@ -301,6 +313,17 @@
 			path = "Target Support Files/Pods-KKViewLayerSdk_Example";
 			sourceTree = "<group>";
 		};
+		FEFF2FEBEC2BDDD81FF47A7977791A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F2BE914B8374B3470C4D97C213DEEE /* KKViewLayerSdk.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				BED32830B7B462743A310AB644CAFFB5 /* Pods_KKViewLayerSdk_Example.framework */,
+				48F36D6D2EE70F374E791390EBEBF323 /* Pods_KKViewLayerSdk_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -312,20 +335,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F8B175C7B067F71D255FE253746609A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFBB5C3D4BE7A7CF1B311166087401C /* MBProgressHUD-umbrella.h in Headers */,
+				A5F87E4C30DFE9EB083F028D75BC659E /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD244B252E67EE7A8875F98E0E3E274D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBA99E052A8AD531A913528384DB04C /* KKAlertController.h in Headers */,
+				C5862BA29B95DC9D676A27025B3992A9 /* KKHud.h in Headers */,
+				0C3493B368F6BAD47BFCBAF64777C435 /* KKViewLayerSdk-umbrella.h in Headers */,
+				E2DEE492986993B076476EA8F9E9FAA7 /* KKViewLayerSdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC3BFC1EBC5F1F8C8F24C0E76E4D297A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D5409C791D183CA010D5AF6BAAC49CA8 /* Pods-KKViewLayerSdk_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FABB7229FCE930B2B8F09A0432D5BF69 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64852E4D8C57C2F3CCB6F946E48EE731 /* MBProgressHUD-umbrella.h in Headers */,
-				A7176AA68EB71749B362262FE1A7F20F /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +378,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F30E40015FEA780EC14A9B5C72260FDE /* PBXTargetDependency */,
+				95F76333AEA3EAF7471871D58CB896AE /* PBXTargetDependency */,
 			);
 			name = "Pods-KKViewLayerSdk_Tests";
 			productName = "Pods-KKViewLayerSdk_Tests";
@@ -353,12 +387,12 @@
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6CFC431AD633FE1FED4687A31434479 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 794F78548780636A675B8ACE8F4A16FE /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				FABB7229FCE930B2B8F09A0432D5BF69 /* Headers */,
-				BA4AE66FE5E699989C1800DAD0858B0C /* Sources */,
-				7902194D635AD13848B98BE58C9B2DE3 /* Frameworks */,
-				E14E1C0625F7640DE835F26A6CCB7829 /* Resources */,
+				8F8B175C7B067F71D255FE253746609A /* Headers */,
+				FDE18633F99E0232C32B92F8B6283ACF /* Sources */,
+				5C4C3552A22C43347AC92B1351931A1C /* Frameworks */,
+				524897F50FAB14F3F52DB43651577A67 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -381,12 +415,31 @@
 			buildRules = (
 			);
 			dependencies = (
-				EBB7E7B86BE7AFAFB6FD9873FF4DC9CC /* PBXTargetDependency */,
-				570865DCB36439D90CE17EC03DDCF59E /* PBXTargetDependency */,
+				783123F2576DD1B68206F694836FF9E5 /* PBXTargetDependency */,
+				FF9FB46B976E5775301FACA0631EC4C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKViewLayerSdk_Example";
 			productName = "Pods-KKViewLayerSdk_Example";
 			productReference = BED32830B7B462743A310AB644CAFFB5 /* Pods_KKViewLayerSdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF9E890B4770C193888A896B1CAD8066 /* KKViewLayerSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9739C30C50B191414BCC10C8CAA1E4 /* Build configuration list for PBXNativeTarget "KKViewLayerSdk" */;
+			buildPhases = (
+				BD244B252E67EE7A8875F98E0E3E274D /* Headers */,
+				BA11DA40DB5853CBF85441DB211368FA /* Sources */,
+				8639B88CDC0B44246EDCA90AF144EEAA /* Frameworks */,
+				DEF3BC802FC5A391D2B1694C3E466400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A9708A2CDE52D7EA11D560BA3C0697 /* PBXTargetDependency */,
+			);
+			name = KKViewLayerSdk;
+			productName = KKViewLayerSdk;
+			productReference = 09F2BE914B8374B3470C4D97C213DEEE /* KKViewLayerSdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -407,7 +460,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1039D336A3F45E99913739BF64EC2481 /* Products */;
+			productRefGroup = FEFF2FEBEC2BDDD81FF47A7977791A09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -427,6 +480,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		524897F50FAB14F3F52DB43651577A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68CA1371ED70E30E0A0E3821ED16EC46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,7 +494,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E14E1C0625F7640DE835F26A6CCB7829 /* Resources */ = {
+		DEF3BC802FC5A391D2B1694C3E466400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,12 +512,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA4AE66FE5E699989C1800DAD0858B0C /* Sources */ = {
+		BA11DA40DB5853CBF85441DB211368FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F1403F4E25940F2E41A76437FF2B0E /* MBProgressHUD-dummy.m in Sources */,
-				DBBF950F1B78A0AA4EA0BCEF41F3C1CB /* MBProgressHUD.m in Sources */,
+				3FABC997A587941B2D8772A6D0A08D5C /* KKAlertController.m in Sources */,
+				ECD9638502677B514396AD3A0B571010 /* KKHud.m in Sources */,
+				2EB12B4E94CB1E3F01FB8CFD6B85533D /* KKViewLayerSdk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,46 +530,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDE18633F99E0232C32B92F8B6283ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9CEE018423AF4123B1E89F91B72DC1 /* MBProgressHUD-dummy.m in Sources */,
+				E382A13923293AEB3B294F8F6683DA80 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		280065A120BD0CFD2CF00F3EE8852E5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = DE5454AB6399CFA255B197B67F66AB88 /* PBXContainerItemProxy */;
-		};
-		570865DCB36439D90CE17EC03DDCF59E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 52C8FF4422A1D2E1A8A58925F8AB6EB3 /* PBXContainerItemProxy */;
-		};
-		EBB7E7B86BE7AFAFB6FD9873FF4DC9CC /* PBXTargetDependency */ = {
+		783123F2576DD1B68206F694836FF9E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKViewLayerSdk;
 			target = EF9E890B4770C193888A896B1CAD8066 /* KKViewLayerSdk */;
-			targetProxy = C49D9CF5FEC904C1B8C6D236375A685C /* PBXContainerItemProxy */;
+			targetProxy = AD13F8BD6C94A1D8FB1264158090F941 /* PBXContainerItemProxy */;
 		};
-		F30E40015FEA780EC14A9B5C72260FDE /* PBXTargetDependency */ = {
+		95F76333AEA3EAF7471871D58CB896AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KKViewLayerSdk_Example";
 			target = 979F2E3811F5A5B191E810D917BA1021 /* Pods-KKViewLayerSdk_Example */;
-			targetProxy = 644D821FF3B79CB7FD60CA36D97BDD1D /* PBXContainerItemProxy */;
+			targetProxy = E64B2759F1AE2B6054C68978B152E9D7 /* PBXContainerItemProxy */;
+		};
+		A5A9708A2CDE52D7EA11D560BA3C0697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 1DDCDFE1D18956A2138859F385124F68 /* PBXContainerItemProxy */;
+		};
+		FF9FB46B976E5775301FACA0631EC4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 888200380DF001D8F3B179867566B864 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		240D80BF5A148073A368C42ED38719E5 /* Debug */ = {
+		567CC1128075C8230C64473ED5D73FD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB7CBBE4E65D249042370333CF8A0E4E /* KKViewLayerSdk.debug.xcconfig */;
+			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -543,20 +631,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6A85863DA6513138FE4C63888C8AF19A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33AA35BEEA0D7B8DC01331BE19D3D877 /* KKViewLayerSdk.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -625,9 +699,9 @@
 			};
 			name = Debug;
 		};
-		C06551BC7676EE1655B13A42BE56D483 /* Debug */ = {
+		AE7D1D3B96828E023DC4C0F6B753EADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = DCAAEAF3FD3F3AD2ADA5EBA49E04ABDD /* KKViewLayerSdk.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -638,23 +712,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk.modulemap";
+				PRODUCT_MODULE_NAME = KKViewLayerSdk;
+				PRODUCT_NAME = KKViewLayerSdk;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CE55861AB8BDFB3786DDE452F83A4836 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -710,15 +785,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E9ABB4B5FD9ACDE9E5671B0C41C70AFB /* Release */ = {
+		DC8EFC5A96C28A2CFFA1DD4472A50667 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			baseConfigurationReference = 5082708B5F3491378C14B974C1140CA0 /* KKViewLayerSdk.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,24 +805,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/KKViewLayerSdk/KKViewLayerSdk.modulemap";
+				PRODUCT_MODULE_NAME = KKViewLayerSdk;
+				PRODUCT_NAME = KKViewLayerSdk;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		EECEA6D4C2130A47080A0CE6E8DFED04 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -815,6 +890,38 @@
 			};
 			name = Debug;
 		};
+		F10EC64B495CDB3A417850326546C9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F14492A7993850D681E43A86009012FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 993DFDE2EB950C8C53D661E61BDEF1DA /* Pods-KKViewLayerSdk_Example.debug.xcconfig */;
@@ -869,11 +976,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6CFC431AD633FE1FED4687A31434479 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		794F78548780636A675B8ACE8F4A16FE /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C06551BC7676EE1655B13A42BE56D483 /* Debug */,
-				E9ABB4B5FD9ACDE9E5671B0C41C70AFB /* Release */,
+				567CC1128075C8230C64473ED5D73FD4 /* Debug */,
+				F10EC64B495CDB3A417850326546C9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -887,11 +994,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D65F3B3990D4CD3CA66E37AC5E7DC0F0 /* Build configuration list for PBXAggregateTarget "KKViewLayerSdk" */ = {
+		FB9739C30C50B191414BCC10C8CAA1E4 /* Build configuration list for PBXNativeTarget "KKViewLayerSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				240D80BF5A148073A368C42ED38719E5 /* Debug */,
-				6A85863DA6513138FE4C63888C8AF19A /* Release */,
+				DC8EFC5A96C28A2CFFA1DD4472A50667 /* Debug */,
+				AE7D1D3B96828E023DC4C0F6B753EADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

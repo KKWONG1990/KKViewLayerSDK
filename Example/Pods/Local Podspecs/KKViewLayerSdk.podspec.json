@@ -19,6 +19,8 @@
     "ios": "8.0"
   },
   "source_files": "KKViewLayerSdk/Classes/**/*",
+  "public_header_files": "KKViewLayerSdk/Classes/**/*.h",
+  "frameworks": "UIKit",
   "dependencies": {
     "MBProgressHUD": [
 
